@@ -1,0 +1,37 @@
+.cardProdutos {
+    width: 80%;
+    height: 50%;
+    background-color: #8336E0;
+    display: inline-block;
+    padding: 1em;
+    margin-left: .9em;
+    margin-bottom: 2em;
+    margin-top: 2em;
+    font-weight: 600;
+    box-shadow: 1px 1px 6px #0000001c;
+}
+
+.cardProdutos p {
+    margin-bottom: 1em;
+    border: none;
+}
+
+.cardProdutos h2 {
+    text-align: center;
+}
+
+.cardProdutos input {
+    margin: 0.6em 0;
+    padding: 0.5em;
+    border: none;
+    border-radius: 0.3em;
+    box-shadow: 1px 1px 6px #0000001c;
+}
+
+.cardProdutos input:hover {
+    background-color: #BD8BD1;
+}
+
+.cardProdutos input:focus-visible {
+    outline: 0.2em solid black;
+}

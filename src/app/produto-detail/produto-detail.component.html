@@ -1,0 +1,18 @@
+<div *ngIf="produtos">
+    <div class="cardProdutos">
+        <h2>{{produtos.nome | uppercase}}</h2>
+        <div><span>Id: </span>{{produtos.id}}</div><br>
+      
+        <label for="produtos-nome">Nome: </label>
+        <input id="produtos-nome" [(ngModel)]="produtos.nome" placeholder="Nome">
+
+        <label for="produtos-cor">Cor: </label>
+        <input id="produtos-cor" [(ngModel)]="produtos.cor" placeholder="Cor">
+
+        <label for="produtos-tamanho">Tamanho: </label>
+        <input id="produtos-tamanho" [(ngModel)]="produtos.tamanho" placeholder="Tamanho">
+
+        <label for="produtos-tecido">Tecido: </label>
+        <input id="produtos-tecido" [(ngModel)]="produtos.tecido" placeholder="Tecido">
+      </div>
+  </div>
